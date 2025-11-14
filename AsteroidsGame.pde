@@ -41,6 +41,7 @@ public void keyPressed(){
     bob.setYSpeed(0);
     bob.setMyCenterX((Math.random()*400) + 50);
     bob.setMyCenterY((Math.random()*400) + 50);
+    bob.turn((int)(Math.random()*360));
   }
 }
 
