@@ -51,4 +51,5 @@ class asteroid extends Floater{
   public float getMyCenterY(){
     return (float)myCenterY;
   }
+
 }
