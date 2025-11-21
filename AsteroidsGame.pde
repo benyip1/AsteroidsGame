@@ -74,8 +74,3 @@ public void keyReleased(){
     right = false;
   }
 }
-  
-  if(key == 'd'){
-    right = false;
-  }
-}
