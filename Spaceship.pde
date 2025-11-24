@@ -6,7 +6,6 @@ class spaceship extends Floater{
     myCenterX = 250;
     myCenterY = 250;
     myColor = color(255, 255, 255);
-    myStrokeColor = color(255, 255, 255);
     myXspeed = 0;
     myYspeed = 0;
   }
