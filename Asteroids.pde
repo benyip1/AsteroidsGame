@@ -8,8 +8,7 @@ class asteroid extends Floater{
     myCenterY = Math.random()*500;
     myPointDirection = Math.random()*5;
     myRotSpeed = Math.random()*5;
-    myStrokeColor = 255;
-    
+    myColor = (255);
     
     xCorners = new int[corners];
     yCorners = new int[corners];
