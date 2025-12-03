@@ -78,9 +78,7 @@ void draw(){
     
     textSize(25);
     text("You destroyed " + asteroidsDestroyed + " asteroids", 115, 200);
-  }
-  
-  if(asteroids.size() <= 0){
+  } else if(asteroids.size() <= 0){
     fill(255);
     textSize(50);
     text("You Won", 150, 150);
